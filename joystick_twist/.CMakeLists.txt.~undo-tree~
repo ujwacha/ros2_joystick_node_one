@@ -1,0 +1,92 @@
+(undo-tree-save-format-version . 1)
+"906816dc3d451a0a277f88db49e18796442d49ee"
+[nil nil nil nil (25985 24173 498616 99000) 0 nil]
+([nil nil ((#("cmake_minimum_required(VERSION 3.8)
+project(cpp_pubsub)
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES \"Clang\")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+# find dependencies
+find_package(ament_cmake REQUIRED)
+# uncomment the following section in order to fill in
+# further dependencies manually.
+# find_package(<dependency> REQUIRED)
+
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  # the following line skips the linter which checks for copyrights
+  # comment the line when a copyright and license is added to all source files
+  set(ament_cmake_copyright_FOUND TRUE)
+  # the following line skips cpplint (only works in a git repo)
+  # comment the line when this package is in a git repo and when
+  # a copyright and license is added to all source files
+  set(ament_cmake_cpplint_FOUND TRUE)
+  ament_lint_auto_find_test_dependencies()
+endif()
+
+ament_package()
+" 0 22 (face font-lock-function-name-face fontified t) 22 23 (face (rainbow-delimiters-depth-1-face) fontified t) 23 34 (fontified t) 34 35 (face (rainbow-delimiters-depth-1-face) fontified t) 35 36 (fontified t) 36 43 (face font-lock-function-name-face fontified t) 43 44 (face (rainbow-delimiters-depth-1-face) fontified t) 44 54 (fontified t) 54 55 (face (rainbow-delimiters-depth-1-face) fontified t) 55 57 (fontified t) 57 59 (face font-lock-keyword-face fontified t) 59 60 (face (rainbow-delimiters-depth-1-face) fontified t) 60 118 (fontified t) 118 125 (face font-lock-string-face fontified t) 125 126 (face (rainbow-delimiters-depth-1-face) fontified t) 126 129 (fontified t) 129 148 (face font-lock-function-name-face fontified t) 148 149 (face (rainbow-delimiters-depth-1-face) fontified t) 149 173 (fontified t) 173 174 (face (rainbow-delimiters-depth-1-face) fontified t) 174 175 (fontified t) 175 180 (face font-lock-keyword-face fontified t) 180 181 (face (rainbow-delimiters-depth-1-face) fontified t) 181 182 (face (rainbow-delimiters-depth-1-face) fontified t) 182 184 (fontified t) 184 204 (face font-lock-comment-face fontified t) 204 216 (face font-lock-function-name-face fontified t) 216 217 (face (rainbow-delimiters-depth-1-face) fontified t) 217 237 (fontified t) 237 238 (face (rainbow-delimiters-depth-1-face) fontified t) 238 239 (fontified t) 239 293 (face font-lock-comment-face fontified t) 293 326 (face font-lock-comment-face fontified t) 326 364 (face font-lock-comment-face fontified t) 364 365 (fontified t) 365 367 (face font-lock-keyword-face fontified t) 367 368 (face (rainbow-delimiters-depth-1-face) fontified t) 368 381 (fontified t) 381 382 (face (rainbow-delimiters-depth-1-face) fontified t) 382 385 (fontified t) 385 397 (face font-lock-function-name-face fontified t) 397 398 (face (rainbow-delimiters-depth-1-face) fontified t) 398 422 (fontified t) 422 423 (face (rainbow-delimiters-depth-1-face) fontified t) 423 426 (fontified t) 426 492 (face font-lock-comment-face fontified t) 492 494 (fontified t) 494 500 (face font-lock-comment-face fontified t) 500 571 (face font-lock-comment-face fontified t) 571 573 (fontified t) 573 576 (face font-lock-function-name-face fontified t) 576 577 (face (rainbow-delimiters-depth-1-face) fontified t) 577 609 (fontified t) 609 610 (face (rainbow-delimiters-depth-1-face) fontified t) 610 613 (fontified t) 613 675 (face font-lock-comment-face fontified t) 675 677 (fontified t) 677 740 (face font-lock-comment-face fontified t) 740 742 (fontified t) 742 797 (face font-lock-comment-face fontified t) 797 799 (fontified t) 799 802 (face font-lock-function-name-face fontified t) 802 803 (face (rainbow-delimiters-depth-1-face) fontified t) 803 833 (fontified t) 833 834 (face (rainbow-delimiters-depth-1-face) fontified t) 834 837 (fontified t) 837 875 (face font-lock-function-name-face fontified t) 875 876 (face (rainbow-delimiters-depth-1-face) fontified t) 876 877 (face (rainbow-delimiters-depth-1-face) fontified t) 877 878 (fontified t) 878 883 (face font-lock-keyword-face fontified t) 883 884 (face (rainbow-delimiters-depth-1-face) fontified t) 884 885 (face (rainbow-delimiters-depth-1-face) fontified t) 885 887 (fontified t) 887 900 (face font-lock-function-name-face fontified t) 900 901 (face (rainbow-delimiters-depth-1-face) fontified t) 901 902 (face (rainbow-delimiters-depth-1-face) fontified t) 902 903 (fontified t)) . 1) (undo-tree-id4 . -227) (undo-tree-id5 . -227) (undo-tree-id6 . -903) (undo-tree-id7 . -903) (undo-tree-id8 . -903) (undo-tree-id9 . -902) (t 25985 24047 464089 648000)) nil (25985 24173 498614 410000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 903 . 904) (nil fontified nil 1 . 904) (1 . 904)) nil (25985 24173 498609 127000) 0 nil])
+([nil nil ((#("cmake_minimum_required(VERSION 3.8)
+project(cpp_pubsub)
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES \"Clang\")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+# find dependencies
+find_package(ament_cmake REQUIRED)
+# uncomment the following section in order to fill in
+# further dependencies manually.
+# find_package(<dependency> REQUIRED)
+
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  # the following line skips the linter which checks for copyrights
+  # comment the line when a copyright and license is added to all source files
+  set(ament_cmake_copyright_FOUND TRUE)
+  # the following line skips cpplint (only works in a git repo)
+  # comment the line when this package is in a git repo and when
+  # a copyright and license is added to all source files
+  set(ament_cmake_cpplint_FOUND TRUE)
+  ament_lint_auto_find_test_dependencies()
+endif()
+
+ament_package()
+" 0 22 (face font-lock-function-name-face fontified t) 22 23 (face (rainbow-delimiters-depth-1-face) fontified t) 23 34 (fontified t) 34 35 (face (rainbow-delimiters-depth-1-face) fontified t) 35 36 (fontified t) 36 43 (face font-lock-function-name-face fontified t) 43 44 (face (rainbow-delimiters-depth-1-face) fontified t) 44 54 (fontified t) 54 55 (face (rainbow-delimiters-depth-1-face) fontified t) 55 57 (fontified t) 57 59 (face font-lock-keyword-face fontified t) 59 60 (face (rainbow-delimiters-depth-1-face) fontified t) 60 118 (fontified t) 118 125 (face font-lock-string-face fontified t) 125 126 (face (rainbow-delimiters-depth-1-face) fontified t) 126 129 (fontified t) 129 148 (face font-lock-function-name-face fontified t) 148 149 (face (rainbow-delimiters-depth-1-face) fontified t) 149 173 (fontified t) 173 174 (face (rainbow-delimiters-depth-1-face) fontified t) 174 175 (fontified t) 175 180 (face font-lock-keyword-face fontified t) 180 181 (face (rainbow-delimiters-depth-1-face) fontified t) 181 182 (face (rainbow-delimiters-depth-1-face) fontified t) 182 184 (fontified t) 184 204 (face font-lock-comment-face fontified t) 204 216 (face font-lock-function-name-face fontified t) 216 217 (face (rainbow-delimiters-depth-1-face) fontified t) 217 237 (fontified t) 237 238 (face (rainbow-delimiters-depth-1-face) fontified t) 238 239 (fontified t) 239 293 (face font-lock-comment-face fontified t) 293 326 (face font-lock-comment-face fontified t) 326 364 (face font-lock-comment-face fontified t) 364 365 (fontified t) 365 367 (face font-lock-keyword-face fontified t) 367 368 (face (rainbow-delimiters-depth-1-face) fontified t) 368 381 (fontified t) 381 382 (face (rainbow-delimiters-depth-1-face) fontified t) 382 385 (fontified t) 385 397 (face font-lock-function-name-face fontified t) 397 398 (face (rainbow-delimiters-depth-1-face) fontified t) 398 422 (fontified t) 422 423 (face (rainbow-delimiters-depth-1-face) fontified t) 423 426 (fontified t) 426 492 (face font-lock-comment-face fontified t) 492 494 (fontified t) 494 500 (face font-lock-comment-face fontified t) 500 571 (face font-lock-comment-face fontified t) 571 573 (fontified t) 573 576 (face font-lock-function-name-face fontified t) 576 577 (face (rainbow-delimiters-depth-1-face) fontified t) 577 609 (fontified t) 609 610 (face (rainbow-delimiters-depth-1-face) fontified t) 610 613 (fontified t) 613 675 (face font-lock-comment-face fontified t) 675 677 (fontified t) 677 740 (face font-lock-comment-face fontified t) 740 742 (fontified t) 742 797 (face font-lock-comment-face fontified t) 797 799 (fontified t) 799 802 (face font-lock-function-name-face fontified t) 802 803 (face (rainbow-delimiters-depth-1-face) fontified t) 803 833 (fontified t) 833 834 (face (rainbow-delimiters-depth-1-face) fontified t) 834 837 (fontified t) 837 875 (face font-lock-function-name-face fontified t) 875 876 (face (rainbow-delimiters-depth-1-face) fontified t) 876 877 (face (rainbow-delimiters-depth-1-face) fontified t) 877 878 (fontified t) 878 883 (face font-lock-keyword-face fontified t) 883 884 (face (rainbow-delimiters-depth-1-face) fontified t) 884 885 (face (rainbow-delimiters-depth-1-face) fontified t) 885 887 (fontified t) 887 900 (face font-lock-function-name-face fontified t) 900 901 (face (rainbow-delimiters-depth-1-face) fontified t) 901 902 (face (rainbow-delimiters-depth-1-face) fontified t) 902 903 (rear-nonsticky t fontified t)) . 1) (undo-tree-id0 . -903) (undo-tree-id1 . -903) (undo-tree-id2 . -902) (undo-tree-id3 . -903)) nil (25985 24173 498607 114000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 548 . 549) (nil fontified nil 1 . 549) (1 . 549)) nil (25985 24173 498591 345000) 0 nil])
+([nil nil ((58 . 59)) nil (25985 24173 498589 314000) 0 nil])
+([nil nil ((550 . 551)) nil (25985 24340 786093 848000) 0 nil])
+([nil nil ((472 . 473) (t 25985 24173 507958 986000)) nil (25985 24347 504485 75000) 0 nil] [nil nil ((nil rear-nonsticky nil 488 . 489) (nil fontified nil 438 . 489) (438 . 489) 437 (t 25985 24173 507958 986000)) ((#("ament_target_dependencies(listener rclcpp std_msgs)" 0 25 (face font-lock-function-name-face fontified nil) 25 26 (face (rainbow-delimiters-depth-1-face) fontified nil) 26 50 (fontified nil) 50 51 (face (rainbow-delimiters-depth-1-face) rear-nonsticky nil fontified nil)) . 438) (undo-tree-id10 . -50) (undo-tree-id11 . -50) (undo-tree-id12 . -50) (nil rear-nonsticky t 488 . 489)) (25985 24340 785671 992000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 523 . 524) (nil fontified nil 473 . 524) (473 . 524)) nil (25985 24347 504482 827000) 0 nil])
+nil
+([nil nil ((553 . 561) (550 . 553)) nil (25985 24347 504477 321000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 472 . 473) (#("
+" 0 1 (fontified nil)) . -529) (472 . 530) 449 (t 25985 24347 537375 462000)) nil (25985 24478 204014 493000) 0 nil])
+([nil nil ((#("talker " 0 7 (fontified t)) . 488) (undo-tree-id17 . -6)) nil (25985 24478 204011 331000) 0 nil])
+([nil nil ((488 . 497)) nil (25985 24478 204009 334000) 0 nil])
+([nil nil ((#("publisher" 0 9 (fontified t)) . 501) (undo-tree-id16 . -8)) nil (25985 24478 204007 961000) 0 nil])
+([nil nil ((#("_" 0 1 (fontified t)) . 501)) nil (25985 24478 204004 978000) 0 nil])
+([nil nil ((#("member" 0 6 (fontified t)) . 501) (undo-tree-id15 . -5)) nil (25985 24478 204003 513000) 0 nil])
+([nil nil ((#("_" 0 1 (fontified t)) . 501)) nil (25985 24478 204000 916000) 0 nil])
+([nil nil ((#("function" 0 8 (fontified t)) . 501) (undo-tree-id14 . -7)) nil (25985 24478 203999 395000) 0 nil])
+([nil nil ((#("." 0 1 (fontified t)) . 501)) nil (25985 24478 203995 763000) 0 nil])
+([nil nil ((#("cpp" 0 3 (fontified t)) . 501) (undo-tree-id13 . -2)) nil (25985 24478 203993 197000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 530 . 531) (nil fontified nil 501 . 531) (501 . 531) 500) nil (25985 24478 203976 707000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 364 . 365) (#("
+" 0 1 (fontified nil)) . -396) (364 . 397) 333 (t 25985 24478 209584 563000)) nil (25986 57387 203606 882000) 0 nil])
+([nil nil ((#("std" 0 3 (fontified t)) . 378) (undo-tree-id0 . -2) (undo-tree-id1 . -3)) nil (25986 57387 203600 168000) 0 nil])
+([nil nil ((378 . 384)) nil (25986 57396 165314 328000) 0 nil])
+([nil nil ((506 . 518) (t 25986 57387 215650 263000)) nil (25986 57599 281561 506000) 0 nil] [nil nil ((365 . 366) (t 25986 57387 215650 263000)) ((#("
+" 0 1 (fontified t)) . 365) (undo-tree-id2 . -1)) (25986 57396 164752 205000) 0 nil])
+([nil nil ((630 . 642)) nil (25986 57599 281550 31000) 0 nil])
+nil
+([nil nil ((nil rear-nonsticky nil 399 . 400) (#("
+" 0 1 (fontified nil)) . -434) (399 . 435) 398 (t 25986 57599 291813 872000)) nil (25988 6326 961761 611000) 0 nil])
+([nil nil ((#("sensor" 0 6 (fontified t)) . 413) (undo-tree-id3 . -5) (undo-tree-id4 . -6)) nil (25988 6326 961755 670000) 0 nil])
+([nil nil ((415 . 421) (413 . 415)) nil (25988 6326 961737 187000) 0 nil])
+([nil nil ((555 . 569)) nil (25988 6326 961733 592000) 0 nil])
+([nil current ((693 . 707)) nil (25988 6326 961723 118000) 0 nil])
+nil

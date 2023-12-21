@@ -1,0 +1,6 @@
+Invoking command in '/home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/light/ros2_ws/src/cpp_pubsub -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON -DCMAKE_INSTALL_PREFIX=/home/light/ros2_ws/src/cpp_pubsub/install/cpp_pubsub
+Invoked command in '/home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/light/ros2_ws/src/cpp_pubsub -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON -DCMAKE_INSTALL_PREFIX=/home/light/ros2_ws/src/cpp_pubsub/install/cpp_pubsub
+Invoking command in '/home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub -- -j8 -l8
+Invoked command in '/home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub -- -j8 -l8
+Invoking command in '/home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub
+Invoked command in '/home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub

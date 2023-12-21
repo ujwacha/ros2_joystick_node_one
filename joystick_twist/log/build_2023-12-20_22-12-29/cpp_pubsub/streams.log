@@ -1,0 +1,12 @@
+[0.038s] Invoking command in '/home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub -- -j8 -l8
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.079s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.085s] [ 75%] Built target listener
+[0.208s] [01m[K/home/light/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:24:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/joy: No such file or directory
+[0.209s]    24 | #include [01;31m[K"sensor_msgs/msg/joy"[m[K
+[0.209s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.209s] compilation terminated.
+[0.210s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[0.210s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[0.210s] gmake: *** [Makefile:146: all] Error 2
+[0.212s] Invoked command in '/home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub -- -j8 -l8

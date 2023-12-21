@@ -1,0 +1,2 @@
+Invoking command in '/home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub -- -j8 -l8
+Invoked command in '/home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub -- -j8 -l8

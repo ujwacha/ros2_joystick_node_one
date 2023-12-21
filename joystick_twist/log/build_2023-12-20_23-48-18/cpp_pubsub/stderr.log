@@ -1,0 +1,8 @@
+[01m[K/home/light/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const Joy&) const[m[K’:
+[01m[K/home/light/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:44:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   44 |   void topic_callback([01;35m[Kconst sensor_msgs::msg::Joy & msg[m[K) const
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/light/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KSerialPublisher::SerialPublisher(char*)[m[K’:
+[01m[K/home/light/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:59:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   59 |   SerialPublisher([01;35m[Kchar * port[m[K) {
+      |                   [01;35m[K~~~~~~~^~~~[m[K

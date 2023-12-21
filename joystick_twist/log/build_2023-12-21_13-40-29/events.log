@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.000366] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000941] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.092206] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.094645] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.094720] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub', 'env': OrderedDict([('INSIDE_EMACS', 'vterm'), ('USER', 'light'), ('XDG_SESSION_TYPE', 'wayland'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '2'), ('LESS', '-R'), ('MOZ_ENABLE_WAYLAND', '1'), ('HOME', '/home/light'), ('OLDPWD', '/home/light/ros2_ws/src/cpp_pubsub/src'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ZSH', '/home/light/.oh-my-zsh'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'less'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '24701'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SYSTEMD_EXEC_PID', '24994'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '724757'), ('COLORTERM', 'truecolor'), ('EMACS_VTERM_PATH', '/home/light/.emacs.d/elpa/vterm-20230417.424/'), ('ROS_DISTRO', 'humble'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'light'), ('JOURNAL_STREAM', '8:43672'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('USERNAME', 'light'), ('ROS_LOCALHOST_ONLY', '1'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/humble/bin:/home/light/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('INVOCATION_ID', '3c0933fc5ab44416ba011a230a262c60'), ('SESSION_MANAGER', 'local/vogel:@/tmp/.ICE-unix/24789,unix/vogel:/tmp/.ICE-unix/24789'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_MENU_PREFIX', 'gnome-'), ('DISPLAY', ':0'), ('TILIX_ID', '15a5c1bd-f701-4675-a69f-78cd0bfe46ef'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JMU5F2'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_DOMAIN_ID', '69'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub'), ('XDG_DATA_DIRS', '/home/light/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099668] (-) TimerEvent: {}
+[0.178801] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.199832] (-) TimerEvent: {}
+[0.217067] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[0.217373] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.300032] (-) TimerEvent: {}
+[0.400395] (-) TimerEvent: {}
+[0.500876] (-) TimerEvent: {}
+[0.601330] (-) TimerEvent: {}
+[0.701870] (-) TimerEvent: {}
+[0.802388] (-) TimerEvent: {}
+[0.902889] (-) TimerEvent: {}
+[1.003576] (-) TimerEvent: {}
+[1.103994] (-) TimerEvent: {}
+[1.204413] (-) TimerEvent: {}
+[1.304919] (-) TimerEvent: {}
+[1.405432] (-) TimerEvent: {}
+[1.505948] (-) TimerEvent: {}
+[1.606484] (-) TimerEvent: {}
+[1.707009] (-) TimerEvent: {}
+[1.807576] (-) TimerEvent: {}
+[1.908061] (-) TimerEvent: {}
+[2.008577] (-) TimerEvent: {}
+[2.109085] (-) TimerEvent: {}
+[2.209559] (-) TimerEvent: {}
+[2.310061] (-) TimerEvent: {}
+[2.410485] (-) TimerEvent: {}
+[2.511051] (-) TimerEvent: {}
+[2.611534] (-) TimerEvent: {}
+[2.711948] (-) TimerEvent: {}
+[2.812439] (-) TimerEvent: {}
+[2.912983] (-) TimerEvent: {}
+[3.013642] (-) TimerEvent: {}
+[3.114077] (-) TimerEvent: {}
+[3.214598] (-) TimerEvent: {}
+[3.315126] (-) TimerEvent: {}
+[3.415754] (-) TimerEvent: {}
+[3.516344] (-) TimerEvent: {}
+[3.617019] (-) TimerEvent: {}
+[3.717515] (-) TimerEvent: {}
+[3.818068] (-) TimerEvent: {}
+[3.918555] (-) TimerEvent: {}
+[4.019048] (-) TimerEvent: {}
+[4.101529] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/light/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::topic_callback(const Joy&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.101873] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/light/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:49:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinitializer fails to determine size of \xe2\x80\x98\x1b[01m\x1b[Kbuttons\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.102033] (cpp_pubsub) StderrLine: {'line': b'   49 |     int32_t buttons[] = \x1b[01;31m\x1b[Kmsg.buttons\x1b[m\x1b[K;\n'}
+[4.102145] (cpp_pubsub) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[4.102248] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/light/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:49:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Karray must be initialized with a brace-enclosed initializer\n'}
+[4.102349] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/light/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:49:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kbuttons\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.102460] (cpp_pubsub) StderrLine: {'line': b'   49 |     int32_t \x1b[01;35m\x1b[Kbuttons\x1b[m\x1b[K[] = msg.buttons;\n'}
+[4.102562] (cpp_pubsub) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.119241] (-) TimerEvent: {}
+[4.219710] (-) TimerEvent: {}
+[4.320206] (-) TimerEvent: {}
+[4.420608] (-) TimerEvent: {}
+[4.521002] (-) TimerEvent: {}
+[4.621584] (-) TimerEvent: {}
+[4.722142] (-) TimerEvent: {}
+[4.822663] (-) TimerEvent: {}
+[4.923271] (-) TimerEvent: {}
+[5.023798] (-) TimerEvent: {}
+[5.124300] (-) TimerEvent: {}
+[5.224799] (-) TimerEvent: {}
+[5.325295] (-) TimerEvent: {}
+[5.425838] (-) TimerEvent: {}
+[5.526382] (-) TimerEvent: {}
+[5.626797] (-) TimerEvent: {}
+[5.727386] (-) TimerEvent: {}
+[5.827863] (-) TimerEvent: {}
+[5.928340] (-) TimerEvent: {}
+[6.028925] (-) TimerEvent: {}
+[6.129573] (-) TimerEvent: {}
+[6.229974] (-) TimerEvent: {}
+[6.330370] (-) TimerEvent: {}
+[6.430852] (-) TimerEvent: {}
+[6.531322] (-) TimerEvent: {}
+[6.631853] (-) TimerEvent: {}
+[6.732400] (-) TimerEvent: {}
+[6.832947] (-) TimerEvent: {}
+[6.933543] (-) TimerEvent: {}
+[7.034156] (-) TimerEvent: {}
+[7.134709] (-) TimerEvent: {}
+[7.235161] (-) TimerEvent: {}
+[7.335661] (-) TimerEvent: {}
+[7.436044] (-) TimerEvent: {}
+[7.536460] (-) TimerEvent: {}
+[7.637023] (-) TimerEvent: {}
+[7.737541] (-) TimerEvent: {}
+[7.837979] (-) TimerEvent: {}
+[7.938407] (-) TimerEvent: {}
+[8.039005] (-) TimerEvent: {}
+[8.139608] (-) TimerEvent: {}
+[8.166437] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1\n'}
+[8.166959] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2\n'}
+[8.167413] (cpp_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.170955] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[8.239978] (-) TimerEvent: {}
+[8.332259] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[8.340164] (-) TimerEvent: {}
+[8.343331] (-) EventReactorShutdown: {}

@@ -1,0 +1,22 @@
+[0.079s] Invoking command in '/home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub -- -j8 -l8
+[0.134s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.151s] [ 50%] Built target talker
+[0.162s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[3.986s] [01m[K/home/light/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const Joy&) const[m[K’:
+[3.987s] [01m[K/home/light/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:49:20:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K*[m[K’ token
+[3.987s]    49 |     int32_t buttons[01;31m[K*[m[K = msg.buttons;
+[3.987s]       |                    [01;31m[K^[m[K
+[3.987s] [01m[K/home/light/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:44:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.987s]    44 |   void topic_callback([01;35m[Kconst sensor_msgs::msg::Joy & msg[m[K) const
+[3.987s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[3.987s] [01m[K/home/light/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K At global scope:
+[3.987s] [01m[K/home/light/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:73:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[3.988s]    73 | [01;31m[Kprivate[m[K:
+[3.988s]       | [01;31m[K^~~~~~~[m[K
+[3.988s] [01m[K/home/light/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:79:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[3.988s]    79 | [01;31m[K}[m[K;
+[3.988s]       | [01;31m[K^[m[K
+[8.053s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[8.053s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+[8.054s] gmake: *** [Makefile:146: all] Error 2
+[8.057s] Invoked command in '/home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub -- -j8 -l8

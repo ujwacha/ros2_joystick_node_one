@@ -1,0 +1,14 @@
+[0.077s] Invoking command in '/home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub -- -j8 -l8
+[0.130s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.147s] [ 50%] Built target talker
+[0.157s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[3.940s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.940s]                  from [01m[K/home/light/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:17[m[K:
+[3.940s] [01m[K/home/light/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const Joy&) const[m[K’:
+[3.941s] [01m[K/home/light/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:52:51:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Joy[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Joy_<std::allocator<void> >[m[K’}
+[3.941s]    52 |         RCLCPP_INFO(this->get_logger(), "%i",  msg[01;31m[K->[m[Kbuttons[i]);
+[3.941s]       |                                                   [01;31m[K^~[m[K
+[8.221s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[8.222s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+[8.222s] gmake: *** [Makefile:146: all] Error 2
+[8.225s] Invoked command in '/home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/light/ros2_ws/src/cpp_pubsub/build/cpp_pubsub -- -j8 -l8
